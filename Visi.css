@@ -5,6 +5,8 @@ header {
     border-bottom: 2px solid grey;
     width: 100%;
     min-width: none;
+    color: navy;
+    background-color: none;
 }
 
 img {
@@ -29,13 +31,14 @@ img {
 .paslaugos {
     display: none;
     position: absolute;
-    box-shadow: 0px 8px 16px 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     background-color: #ffffff;
    
 }
 
 .paslaugos a {
+    border-bottom: 1px solid grey;
     float: none;
     padding: 12px 40px;
     display: block;
@@ -46,15 +49,12 @@ img {
 .dropbtn {
     font-family: inherit;
     font-size: inherit;
-    font-display: inherit;
     border: none;
     background: none;
 }
 
 .dropdown:hover .paslaugos {
     display: block;
-    
-
 }
 
 a:link {
