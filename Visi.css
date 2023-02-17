@@ -24,6 +24,36 @@ img {
     height: inherit;
     border-left: 2px solid grey;
     align-items: center;
+}
+
+.paslaugos {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+    background-color: #ffffff;
+   
+}
+
+.paslaugos a {
+    float: none;
+    padding: 12px 40px;
+    display: block;
+    text-align: left;
+
+}
+
+.dropbtn {
+    font-family: inherit;
+    font-size: inherit;
+    font-display: inherit;
+    border: none;
+    background: none;
+}
+
+.dropdown:hover .paslaugos {
+    display: block;
+    
 
 }
 
